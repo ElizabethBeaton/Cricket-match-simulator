@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* APP */ 
+.app {
+  font-family: "Arial";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.searchButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.searchButton:hover {
+  background-color: #f2f2f2;
+}
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}
+
+.win-percentage {
+  margin-top: 1rem;
+}
+/* END OF APP */
+
+/* GAME SELECTOR */
+select {
+  padding: 0.5rem;
+  width: 250px;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.wide-select {
+  margin-bottom: 1rem;
+}
+/* END OF GAME SELECTOR */
+
+/*    GAMEDETAILS    */
+.team {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.lists {
+  font-size: 0.95rem;
+  padding: 6.25rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.list-details {
+margin-bottom: 0.5rem;
+font-size: 1rem;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid #eee;
+padding-bottom: 0.25rem;
+}
+
+.list-venue-name {
+  font-weight: 500;
+}
+.list-venue-date {
+  color: #777;
+  font-size: 0.9rem;
+}
+.game-details ul {
+  list-style: none;
+  padding: 0 
+}
+/* END OF GAME DETAILS*/
+

@@ -1,0 +1,12 @@
+# Python virtual env
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local database (optional)
+cricket.db
+
+# OS-specific
+.DS_Store
