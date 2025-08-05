@@ -1,4 +1,4 @@
-# Pluto Cricket Match Simulator
+# Cricket Match Simulator
 
 A full stack application that allows users to simulate cricket matchups between local teams.
 
